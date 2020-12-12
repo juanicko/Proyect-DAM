@@ -60,15 +60,15 @@ connect()
 #Root
 root=Tk()
 root.title("ManicExercise")
-root.config(bg='#FFFAFA')
+root.config(bg='#FFFFFF')
 root.iconbitmap('icon.ico')
 root.columnconfigure(0, weight=1)
 root.rowconfigure(0, weight=1)
 
 styleRoot = ttk.Style()
-styleRoot.configure('TFrame', background='#FFFAFA')
-styleRoot.configure('T.TLabel', background='#FFFAFA',font=('Verdana',10,'bold'))
-styleRoot.configure('Time.TLabel',font=('Verdana',25,'bold'),foreground="black",background='#FFFAFA')
+styleRoot.configure('TFrame', background='#FFFFFF')
+styleRoot.configure('T.TLabel', background='#FFFFFF',font=('Verdana',10,'bold'))
+styleRoot.configure('Time.TLabel',font=('Verdana',25,'bold'),foreground="black",background='#FFFFFF')
 
 ########################MENU Options 
 def exportJson():
